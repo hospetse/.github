@@ -1,1 +1,65 @@
-IyBIT1NQRVRTRSDwn5C+CgpNYXJrZXRwbGFjZSBtb2JpbGUgZGUgc2Vydmnvb3MgcGFyYSBwZXRzIOKAlCBNVlAgZGUgaG9zcGVkYWdlbSBjb20gYnVzY2EgZSByZXNlcnZhLgoKPiAqKlByb2pldG8gYWNhZMOqbWljbyDigJQgRVNPRlQgN8K6IHNlbS4gMjAyNi4xKioKCi0tLQoKIyMgVGltZQoKfCBOb21lIHwgUGFwZWwgfAp8LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS18CnwgTHVjYXMgTmVvIHwgQmFjay1lbmQgJiBCYW5jbyB8CnwgUmF1bCBMb3BlcyBKb3JnZSB8IEJhY2stZW5kICYgSW5mcmEgfAp8IE11cmxvIEJhcmJvc2EgfCBNb2JpbGUgfAp8IEJyZW5kYSBLZXRobGVlbiBDaXJxdWVpcmEgTHVjYXMgfCBQcm9kdXRvIHwKfCBBbWFuZGEgTG9yZW5hIHwgR2VzdMOjbyB8CnwgQXJ0aHVyIEdvcmluaSB8IFFBIHwKfCBDbGFyYSBMYXphcm8gfCBNb2JpbGUgfAoKLS0tCgojIyBSZXBvc2l0w7NyaW9zCgp8IFJlcG8gfCBEZXNjcmnDp8OjbyB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS18CnwgW2JhY2stZW5kXShodHRwczovL2dpdGh1Yi5jb20vaG9zcGV0c2UvYmFjay1lbmQpIHwgQVBJIFJFU1QgLSBOb2RlLmpzICsgRXhwcmVzcyArIFBvc3RncmVTUUwgfAp8IFttb2JpbGUtZnJvbnQtZW5kXShodHRwczovL2dpdGh1Yi5jb20vaG9zcGV0c2UvbW9iaWxlLWZyb250LWVuZCkgfCBBcHAgbW9iaWxlIC0gUmVhY3QgTmF0aXZlICsgRXhwbyBTREsgNTQgfAp8IFthcnRlZmF0b3NdKGh0dHBzOi8vZ2l0aHViLmNvbS9ob3NwZXRzZS9hcnRlZmF0b3MpIHwgRGlhZ3JhbWFzLCBwbGFub3MgZGUgdGVzdGUgZSBkb2N1bWVudGHDp8OjbyB8CgotLS0KCiMjIEFycXVpdGV0dXJhCgpgYGAKTW9iaWxlIChFeHBvKSDihpIgQVBJIFJFU1QgKEV4cHJlc3MpIOKGkiBQb3N0Z3JlU1FMIChSYWlsd2F5KQpgYGAKCi0gKipBUEkgZW0gcHJvZHXDp8OjbyoqOiBgYmFjay1lbmQtcHJvZHVjdGlvbi0xMWU5LnVwLnJhaWx3YXkuYXBwYAotICoqU3dhZ2dlcioqOiBgYmFjay1lbmQtcHJvZHVjdGlvbi0xMWU5LnVwLnJhaWx3YXkuYXBwL2FwaS1kb2NzYAotICoqSmlyYSoqOiBgZXNjb2xhLXRpLmF0bGFzc2lhbi5uZXQgLSBwcm9qZXRvIEhPU2AKCi0tLQoKIyMgRXNjb3BvIGRvIE1WUAoKT01WUCBjb2JyZSBleGNsdXNpdmFtZW50ZSBvcyBmbHV4b3M6CgotICoqVUMwMyDigJQgQnVzY2FyIFNlcnZpw6dvcyoqOiBsaXN0YWdlbSwgZmlsdHJvcywgcGVyZmlsIGRvIGhvdGVsCi0gKipVQzA0IOKAlCBTb2xpY2l0YXIgUmVzZXJ2YSoqOiBzZWxlw6fDo28gZGUgcGV0LCBkYXRhcywgY29uZmlybWHDp8OjbwoKPiBQYWdhbWVudG8sIGNoYXQsIHdhbGtlciwgcGV0IHNpdHRlciwgQkkgZSB3ZWIgY29tcGxldGEgZmljYW0gcGFyYSBmYXNlcyBmdXR1cmFzLgoKLS0tCgojIyBBcnRlZmF0b3MKCnwgQXJxdWl2byB8IERlc2NyacOnw6NvIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tfAp8IFtIT1NQRVRTRS5wZGZdKGh0dHBzOi8vZ2l0aHViLmNvbS9ob3NwZXRzZS9hcnRlZmF0b3MvYmxvYi9tYWluL0hPU1BFVFNFLnBkZikgfCBEb2N1bWVudGHDp8OjbyBkbyBNVlAgLSBVQzAzIGUgVUMwNCB8CnwgW0RJQUdSQU1BUy5wZGZdKGh0dHBzOi8vZ2l0aHViLmNvbS9ob3NwZXRzZS9hcnRlZmF0b3MvYmxvYi9tYWluL0RJQUdSQU1BUy5wZGYpIHwgRGlhZ3JhbWFzIGRlIHNlcXXDqm5jaWEgfAp8IFtURVNURSBIT1NQRVRTRS5wZGZdKGh0dHBzOi8vZ2l0aHViLmNvbS9ob3NwZXRzZS9hcnRlZmF0b3MvYmxvYi9tYWluL1RFU1RFJTIwSE9TUEVUU0UucGRmKSB8IFBsYW5vIGRlIHRlc3RlcyBVQzAzICsgVUMwNCB8CnwgW0hPU1BFVFNFLUpJUkEucGRmXShodHRwczovL2dpdGh1Yi5jb20vaG9zcGV0c2UvYXJ0ZWZhdG9zL2Jsb2IvbWFpbi9IT1NQRVRTRS1KSVJBLnBkZikgfCBNw6l0cmljYXMgZSBjYXJkcyBkbyBKaXJhIHwKfCBbREVSX0hPU1BFVFNFLnBuZ10oaHR0cHM6Ly9naXRodWIuY29tL2hvc3BldHNlL2FydGVmYXRvcy9ibG9iL21haW4vREVSX0hPU1BFVFNFLnBuZykgfCBEaWFncmFtYSBFbnRpZGFkZS1SZWxhY2lvbmFtZW50byB8CnwgW0RJQUdSQU1BX0NMQVNTRS5wbmddKGh0dHBzOi8vZ2l0aHViLmNvbS9ob3NwZXRzZS9hcnRlZmF0b3MvYmxvYi9tYWluL0RJQUdSQU1BX0NMQVNTRS5wbmcpIHwgRGlhZ3JhbWEgZGUgY2xhc3NlcyB8Cg==
+# HOSPETSE
+
+Marketplace mobile de serviços para pets. MVP de hospedagem com busca e reserva de hotel para animais de estimação.
+
+**Projeto acadêmico — ESOFT 7º semestre — 2026.1**
+
+---
+
+## Time
+
+| Nome | Papel |
+|-------------------------------|---------------------|
+| Lucas Neo | Back-end & Banco de Dados |
+| Raul Lopes Jorge | Back-end & Infraestrutura |
+| Murilo Barbosa | Mobile |
+| Brenda Kethleen Cirqueira Lucas | Produto |
+| Amanda Lorena | Gestão |
+| Arthur Gorini | QA |
+| Clara Lazaro | Mobile |
+
+---
+
+## Repositórios
+
+| Repositório | Descrição |
+|-------------|-----------|
+| [back-end](https://github.com/hospetse/back-end) | API REST — Node.js, Express, PostgreSQL |
+| [mobile-front-end](https://github.com/hospetse/mobile-front-end) | Aplicativo mobile — React Native, Expo SDK 54 |
+| [artefatos](https://github.com/hospetse/artefatos) | Diagramas, planos de teste e documentação |
+
+---
+
+## Arquitetura
+
+```
+Mobile (Expo) → API REST (Express) → PostgreSQL (Railway)
+```
+
+- **API em produção**: `back-end-production-11e9.up.railway.app`
+- **Documentação Swagger**: `back-end-production-11e9.up.railway.app/api-docs`
+- **Gerenciamento**: Jira — `escola-ti.atlassian.net` — projeto HOS
+
+---
+
+## Escopo do MVP
+
+O MVP contempla exclusivamente os fluxos:
+
+- **UC03 — Buscar Hospedagem**: listagem de hotéis, filtros e visualização de perfil
+- **UC04 — Solicitar Reserva**: seleção de pet, período e confirmação da reserva
+
+Pagamento, chat, walker, pet sitter, BI e plataforma web ficam para fases futuras.
+
+---
+
+## Artefatos
+
+| Arquivo | Descrição |
+|---------|-----------|
+| [HOSPETSE.pdf](https://github.com/hospetse/artefatos/blob/main/HOSPETSE.pdf) | Documentação do MVP — UC03 e UC04 |
+| [DIAGRAMAS.pdf](https://github.com/hospetse/artefatos/blob/main/DIAGRAMAS.pdf) | Diagramas de sequência |
+| [TESTE HOSPETSE.pdf](https://github.com/hospetse/artefatos/blob/main/TESTE%20HOSPETSE.pdf) | Plano de testes UC03 e UC04 |
+| [HOSPETSE-JIRA.pdf](https://github.com/hospetse/artefatos/blob/main/HOSPETSE-JIRA.pdf) | Métricas e cards do Jira |
+| [DER_HOSPETSE.png](https://github.com/hospetse/artefatos/blob/main/DER_HOSPETSE.png) | Diagrama Entidade-Relacionamento |
+| [DIAGRAMA_CLASSE.png](https://github.com/hospetse/artefatos/blob/main/DIAGRAMA_CLASSE.png) | Diagrama de classes |
