@@ -35,8 +35,7 @@ Os documentos ficam no repositório [artefatos](https://github.com/hospetse/arte
    * [ADR-001 a ADR-015](https://github.com/hospetse/artefatos/blob/main/2o-semestre/05-arquitetura/adrs.md) ([Wiki #55](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/55))
    * [C4 de Contexto, Containers e Componentes](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/c4)
    * [Ambientes, Deploy e CI/CD](https://github.com/hospetse/artefatos/blob/main/2o-semestre/05-arquitetura/ambientes-e-deploy.md)
-   * [Documentação da API REST](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/api): contratos OpenAPI do Auth Server e do back-end
-   * Swagger da API publicada (Auth Server e back-end): [Wiki #88](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/88), acesso restrito ao projeto
+   * Documentação da API REST e Swagger do Auth Server e do back-end: [Wiki #88](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/88), acesso restrito ao projeto
    * [Integração de Pagamento](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/integracao-de-pagamento)
 6. [Qualidade](https://github.com/hospetse/artefatos/tree/main/2o-semestre/06-qualidade)
    * [Estratégia de Testes](https://github.com/hospetse/artefatos/tree/main/2o-semestre/06-qualidade): testes automatizados no back-end e no Auth Server rodando no CI, depois testes end-to-end e validação manual dos fluxos
@@ -77,7 +76,7 @@ Documentos extras, em PDF, Word e Excel, estão na [pasta do projeto no Google D
 |-------------|-----------|
 | [hospetse-mobile](https://github.com/hospetse/hospetse-mobile) | Aplicativo do Tutor e dos prestadores. Expo SDK 58, React Native 0.88, TypeScript e Expo Router. Tem cadastro com PIN, login, busca de Hosts, filtros, resultados e detalhe do Host. Os tokens ficam no armazenamento seguro do aparelho (SecureStore). |
 | [hospetse-auth-service](https://github.com/hospetse/hospetse-auth-service) | Serviço de autenticação, separado do back-end e com banco próprio. Confirma o e-mail com PIN, guarda a senha com Argon2id e emite o access token JWT (RS256, 15 minutos) e o refresh token com rotação. Depois do cadastro, cria o usuário no back-end por uma rota interna autenticada. Node.js 22, Express 5, Prisma e PostgreSQL. |
-| [hospetse-backend](https://github.com/hospetse/hospetse-backend) | API REST principal, com as regras de negócio. Cuida de usuários, perfil do Tutor, pets, busca e detalhe de Hosts e reservas. Valida o JWT com a chave pública do Auth e nunca recebe senha. Node.js, Express 5, Prisma e PostgreSQL, com contrato OpenAPI em `/docs`. |
+| [hospetse-backend](https://github.com/hospetse/hospetse-backend) | API REST principal, com as regras de negócio. Cuida de usuários, perfil do Tutor, pets, busca e detalhe de Hosts e reservas. Valida o JWT com a chave pública do Auth e nunca recebe senha. Node.js, Express 5, Prisma e PostgreSQL, com contrato OpenAPI. |
 | [artefatos](https://github.com/hospetse/artefatos) | Documentos e diagramas do projeto, separados por etapa: `1o-semestre/` (MVP de 2026.1) e `2o-semestre/` (documentação atual, organizada pelas seções do sumário). |
 
 ### Azure DevOps
