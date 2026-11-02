@@ -8,45 +8,48 @@ Plataforma que conecta tutores de pets a quem cuida deles. O Tutor encontra e co
 
 ## Sumário
 
-Os documentos ficam no repositório [artefatos](https://github.com/hospetse/artefatos). Os links **Wiki #n** abrem páginas da wiki do Azure DevOps, que é privada: só abre para quem recebeu convite para o projeto.
+Os documentos ficam no repositório [artefatos](https://github.com/hospetse/artefatos), separados por etapa: [1º semestre](https://github.com/hospetse/artefatos/tree/main/1o-semestre) (MVP de 2026.1) e [2º semestre](https://github.com/hospetse/artefatos/tree/main/2o-semestre) (documentação atual). Cada item abaixo abre o arquivo no GitHub. O link **Wiki #n** abre a mesma página na Wiki do Azure DevOps, que é privada e só abre para quem tem acesso ao projeto.
 
 1. [Visão geral](#1-visão-geral)
    * [Produto, time e repositórios](#produto-time-e-repositórios)
    * [Azure DevOps: o que temos lá e como organizamos o trabalho](#azure-devops)
-   * [UX e UI: protótipo de alta fidelidade das telas (Figma, link externo)](#ux-e-ui)
-2. [Produto e requisitos](https://github.com/hospetse/artefatos/tree/main/2-produto-e-requisitos)
-   * TAP — Termo de Abertura do Projeto ([arquivo](https://github.com/hospetse/artefatos/blob/main/2-produto-e-requisitos/TAP_HOSPETSE%20-%20V2.pdf), [Wiki #62](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/62))
-   * Pesquisa sobre cuidados com pets ([arquivo](https://github.com/hospetse/artefatos/blob/main/2-produto-e-requisitos/Pesquisa%20sobre%20cuidados%20com%20pets.pdf))
-   * Documento de Requisitos Funcionais e Não Funcionais v2 ([arquivo](https://github.com/hospetse/artefatos/blob/main/2-produto-e-requisitos/Documento%20de%20Requisitos%20Funcionais%20e%20N%C3%A3o%20Funcionais%20%E2%80%94%20HOSPETSE.docx), [Wiki #109](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/109))
-   * Glossário de Termos de Negócio ([Wiki #107](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/107))
-   * Especificação dos 73 Casos de Uso v2 ([arquivos](https://github.com/hospetse/artefatos/tree/main/2-produto-e-requisitos/casos-de-uso), [Wiki #78](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/78))
-   * User Stories V2 e detalhadas, com critérios de aceite ([PDFs](https://github.com/hospetse/artefatos/tree/main/2-produto-e-requisitos/user-stories), [Wiki #81](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/81) e [#84](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/84))
-   * [Matriz de Rastreabilidade](https://github.com/hospetse/artefatos/tree/main/2-produto-e-requisitos/rastreabilidade) (planilha e versão em Markdown)
-3. [Modelagem](https://github.com/hospetse/artefatos/tree/main/3-modelagem)
-   * [Diagrama de Casos de Uso completo](https://github.com/hospetse/artefatos/tree/main/3-modelagem/casos-de-uso/diagrama-completo) (`.puml`, `.png` e `.svg`)
-   * [Diagramas de Casos de Uso por módulo](https://github.com/hospetse/artefatos/tree/main/3-modelagem/casos-de-uso/por-modulo), 16 diagramas
-   * [Diagrama de Classes](https://github.com/hospetse/artefatos/tree/main/3-modelagem/diagrama-de-classes): completo, Auth e 5 seções
-   * [DER V3.1](https://github.com/hospetse/artefatos/tree/main/3-modelagem/der) ([Wiki #60](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/60))
-   * [8 Diagramas de Sequência e matriz de tipos](https://github.com/hospetse/artefatos/tree/main/3-modelagem/diagramas-de-sequencia) ([Wiki #105](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/105))
-4. [Arquitetura (System Design)](https://github.com/hospetse/artefatos/tree/main/4-arquitetura)
-   * ADR-001 a ADR-015 ([Wiki #55](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/55))
-   * [C4 de Contexto, Containers e Componentes](https://github.com/hospetse/artefatos/tree/main/4-arquitetura/c4)
-   * [Documento de Ambientes, Deploy e CI/CD](https://github.com/hospetse/artefatos/blob/main/4-arquitetura/ambientes.md)
-   * [Documentação da API REST](https://github.com/hospetse/artefatos/tree/main/4-arquitetura/api): OpenAPI do Auth e do back-end, Swagger em `/docs` e [Wiki #88](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/88)
-   * [Documento de Integração de Pagamento](https://github.com/hospetse/artefatos/tree/main/4-arquitetura/integracao-de-pagamento)
-5. [Qualidade](https://github.com/hospetse/artefatos/tree/main/5-qualidade)
-   * Estratégia de Testes:
-     * Hoje: testes unitários e de integração automatizados no back-end e no Auth (`node:test`), rodando no CI.
-     * O mobile tem testes com Jest.
-     * Próximos passos: testes end-to-end e execução manual dos fluxos principais.
-6. [Gestão](https://github.com/hospetse/artefatos/tree/main/6-gestao)
-   * Metodologia, Definition of Done e cerimônias ([Wiki #41](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/41), [#34](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/34) e [#43](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/43))
-   * [Backlog, épicos e roadmap](https://github.com/hospetse/artefatos/tree/main/6-gestao/backlog) e Azure Boards
-   * [Estimativas](https://github.com/hospetse/artefatos/tree/main/6-gestao/estimativas)
-   * Compromissos da sprint ([Wiki #101](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/101))
-7. Termos e políticas _(somente na wiki)_
-   * Política de Privacidade ([Wiki #94](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/94))
-   * Termos de Uso do Host, do Pet Sitter e do Pet Walker ([Wiki #96](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/96), [#97](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/97) e [#103](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/103))
+2. [Produto e requisitos](https://github.com/hospetse/artefatos/tree/main/2o-semestre/02-produto-e-requisitos)
+   * [TAP — Termo de Abertura do Projeto](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/tap-termo-de-abertura.md) ([Wiki #62](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/62))
+   * [Pesquisa sobre cuidados com pets](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/pesquisa-sobre-cuidados-com-pets.pdf)
+   * [Documento de Requisitos Funcionais e Não Funcionais v2](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/requisitos-funcionais-e-nao-funcionais-v2.md) ([Wiki #109](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/109))
+   * [Glossário de Termos de Negócio v2](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/glossario-v2.md) ([Wiki #107](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/107))
+   * [Especificação dos 73 Casos de Uso v2](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/casos-de-uso-v2.md) ([Wiki #78](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/78))
+   * [User Stories v2](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/user-stories-v2.md) e [detalhadas, com critérios de aceite](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/user-stories-detalhadas-v2.md) ([Wiki #81](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/81) e [#84](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/84))
+   * [Matriz de Rastreabilidade](https://github.com/hospetse/artefatos/blob/main/2o-semestre/02-produto-e-requisitos/matriz-de-rastreabilidade.md) ([Wiki #124](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/124))
+3. [UX e UI](https://github.com/hospetse/artefatos/tree/main/2o-semestre/03-ux-e-ui)
+   * [Protótipo de alta fidelidade das telas (Figma)](https://www.figma.com/design/mw5KHNpIv4u9VFF9AsN8Fe/Hospetse---Design-Telas--Copy-?node-id=0-1&p=f)
+   * [Fluxo de telas visual v2](https://github.com/hospetse/artefatos/blob/main/2o-semestre/03-ux-e-ui/fluxo-de-telas-v2.md) ([Wiki #74](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/74))
+   * [Modelo de identidade visual (Canva)](https://canva.link/t30yyziy9ubzzo3) ([Wiki #76](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/76))
+4. [Modelagem](https://github.com/hospetse/artefatos/tree/main/2o-semestre/04-modelagem)
+   * [Diagramas de Casos de Uso](https://github.com/hospetse/artefatos/tree/main/2o-semestre/04-modelagem/casos-de-uso): visão completa e 16 por módulo
+   * [Diagrama de Classes](https://github.com/hospetse/artefatos/tree/main/2o-semestre/04-modelagem/classes): completo, Auth Server e 5 seções
+   * [DER V3.1](https://github.com/hospetse/artefatos/blob/main/2o-semestre/04-modelagem/der/der-v3.1.md) ([Wiki #60](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/60))
+   * [8 Diagramas de Sequência e matriz de tipos](https://github.com/hospetse/artefatos/tree/main/2o-semestre/04-modelagem/sequencia) ([Wiki #105](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/105))
+5. [Arquitetura (System Design)](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura)
+   * [ADR-001 a ADR-015](https://github.com/hospetse/artefatos/blob/main/2o-semestre/05-arquitetura/adrs.md) ([Wiki #55](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/55))
+   * [C4 de Contexto, Containers e Componentes](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/c4)
+   * [Ambientes, Deploy e CI/CD](https://github.com/hospetse/artefatos/blob/main/2o-semestre/05-arquitetura/ambientes-e-deploy.md)
+   * [Documentação da API REST](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/api): OpenAPI e Swagger do Auth Server e do back-end ([Wiki #88](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/88))
+   * [Integração de Pagamento](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/integracao-de-pagamento)
+6. [Qualidade](https://github.com/hospetse/artefatos/tree/main/2o-semestre/06-qualidade)
+   * [Estratégia de Testes](https://github.com/hospetse/artefatos/tree/main/2o-semestre/06-qualidade): testes automatizados no back-end e no Auth Server rodando no CI, depois testes end-to-end e validação manual dos fluxos
+7. [Gestão](https://github.com/hospetse/artefatos/tree/main/2o-semestre/07-gestao)
+   * [Fluxo de trabalho e cerimônias](https://github.com/hospetse/artefatos/blob/main/2o-semestre/07-gestao/fluxo-de-trabalho-e-cerimonias.md) ([Wiki #43](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/43))
+   * [Definition of Done e critérios de aceite](https://github.com/hospetse/artefatos/blob/main/2o-semestre/07-gestao/definition-of-done.md) ([Wiki #34](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/34))
+   * [Epic HSP-EP-001 — Identidade, conta e acesso](https://github.com/hospetse/artefatos/blob/main/2o-semestre/07-gestao/epic-hsp-ep-001.md) ([Wiki #69](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/69))
+   * [Compromissos da Sprint 7](https://github.com/hospetse/artefatos/blob/main/2o-semestre/07-gestao/compromissos-sprint-7.md) ([Wiki #86](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/86))
+   * [Estimativa inicial em horas por PBI](https://github.com/hospetse/artefatos/blob/main/2o-semestre/07-gestao/estimativa-horas-pbis.md) ([Wiki #80](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/80))
+   * Backlog completo e sprints no [Azure Boards](https://dev.azure.com/escola-ti/Hospetse/_boards)
+8. [Termos e políticas](https://github.com/hospetse/artefatos/tree/main/2o-semestre/08-termos-e-politicas)
+   * [Política de Privacidade](https://github.com/hospetse/artefatos/blob/main/2o-semestre/08-termos-e-politicas/politica-de-privacidade.md) ([Wiki #94](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/94))
+   * Termos de Uso do [Host](https://github.com/hospetse/artefatos/blob/main/2o-semestre/08-termos-e-politicas/termos-de-uso-host.md), do [Pet Sitter](https://github.com/hospetse/artefatos/blob/main/2o-semestre/08-termos-e-politicas/termos-de-uso-pet-sitter.md) e do [Pet Walker](https://github.com/hospetse/artefatos/blob/main/2o-semestre/08-termos-e-politicas/termos-de-uso-pet-walker.md) ([Wiki #96](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/96), [#97](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/97) e [#103](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/103))
+
+Documentos extras, em PDF, Word e Excel, estão na [pasta do projeto no Google Drive](https://drive.google.com/drive/folders/1nrYGjsp7fLBej4jro9sgQZ-MuqHesd78?usp=sharing).
 
 ---
 
@@ -72,7 +75,7 @@ Os documentos ficam no repositório [artefatos](https://github.com/hospetse/arte
 | [hospetse-mobile](https://github.com/hospetse/hospetse-mobile) | Aplicativo do Tutor e dos prestadores. Expo SDK 58, React Native 0.88, TypeScript e Expo Router. Tem cadastro com PIN, login, busca de Hosts, filtros, resultados e detalhe do Host. Os tokens ficam no armazenamento seguro do aparelho (SecureStore). |
 | [hospetse-auth-service](https://github.com/hospetse/hospetse-auth-service) | Serviço de autenticação, separado do back-end e com banco próprio. Confirma o e-mail com PIN, guarda a senha com Argon2id e emite o access token JWT (RS256, 15 minutos) e o refresh token com rotação. Depois do cadastro, cria o usuário no back-end por uma rota interna autenticada. Node.js 22, Express 5, Prisma e PostgreSQL. |
 | [hospetse-backend](https://github.com/hospetse/hospetse-backend) | API REST principal, com as regras de negócio. Cuida de usuários, perfil do Tutor, pets, busca e detalhe de Hosts e reservas. Valida o JWT com a chave pública do Auth e nunca recebe senha. Node.js, Express 5, Prisma e PostgreSQL, com contrato OpenAPI em `/docs`. |
-| [artefatos](https://github.com/hospetse/artefatos) | Documentos e diagramas do projeto, organizados por seção do sumário. Os artefatos da primeira etapa (MVP de 2026.1) ficam em `1o-semestre/`. |
+| [artefatos](https://github.com/hospetse/artefatos) | Documentos e diagramas do projeto, separados por etapa: `1o-semestre/` (MVP de 2026.1) e `2o-semestre/` (documentação atual, organizada pelas seções do sumário). |
 
 ### Azure DevOps
 
@@ -115,12 +118,3 @@ Os épicos de hoje:
 
 **Como o código se liga ao board.** Todo work item tem um número. Branches seguem o padrão `feature/<número>-descrição`, e os commits e PRs citam o item com `AB#<número>` (por exemplo, `AB#516`). Assim, qualquer mudança no código pode ser rastreada até o PBI e o épico de origem.
 
-### UX e UI
-
-#### Protótipo de alta fidelidade das telas
-
-**[Abrir o protótipo no Figma](https://www.figma.com/design/mw5KHNpIv4u9VFF9AsN8Fe/Hospetse---Design-Telas--Copy-?node-id=0-1&p=f)** (link externo)
-
-O design das telas fica no Figma, não neste repositório nem no Azure DevOps. O link abre uma página externa, e o acesso depende da permissão de compartilhamento do arquivo. Se o link não abrir, peça acesso ao time.
-
-Na wiki: [Protótipo das telas (Wiki #75)](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/75), [Modelo de Identidade Visual (Wiki #76)](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/76) e [Fluxo de Telas Visual V2 (Wiki #74)](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/74).
