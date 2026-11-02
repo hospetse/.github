@@ -1,8 +1,8 @@
 # HOSPETSE
 
-Marketplace mobile de serviços para pets. MVP de hospedagem com busca e reserva de hotel para animais de estimação.
+Plataforma que conecta tutores de pets a quem cuida deles. O Tutor encontra e contrata hospedagem (Host), visitas em casa (Pet Sitter) e passeios (Pet Walker). Pelo aplicativo, ele reserva, paga, acompanha a rotina do pet durante o serviço e tira dúvidas com um assistente de IA antes de falar com o prestador. Na web, a área pública apresenta o produto, e o módulo administrativo valida prestadores, modera conteúdo e acompanha a operação financeira.
 
-**Projeto acadêmico — ESOFT 7º semestre — 2026.1**
+**Projeto acadêmico — ESOFT 8º semestre — Turma B — 2026.2**
 
 ---
 
@@ -13,9 +13,8 @@ Marketplace mobile de serviços para pets. MVP de hospedagem com busca e reserva
 | Lucas Neo | Back-end & Banco de Dados |
 | Raul Lopes Jorge | Back-end & Infraestrutura |
 | Murilo Barbosa | Mobile |
-| Brenda Kethleen Cirqueira Lucas | Produto |
-| Amanda Lorena | Gestão |
-| Arthur Gorini | QA |
+| Brenda Kethleen Cirqueira Lucas | Product Owner |
+| Amanda Lorena | Scrum Master |
 | Clara Lazaro | Mobile |
 
 ---
@@ -24,42 +23,7 @@ Marketplace mobile de serviços para pets. MVP de hospedagem com busca e reserva
 
 | Repositório | Descrição |
 |-------------|-----------|
-| [back-end](https://github.com/hospetse/back-end) | API REST — Node.js, Express, PostgreSQL |
-| [mobile-front-end](https://github.com/hospetse/mobile-front-end) | Aplicativo mobile — React Native, Expo SDK 54 |
-| [artefatos](https://github.com/hospetse/artefatos) | Diagramas, planos de teste e documentação |
-
----
-
-## Arquitetura
-
-```
-Mobile (Expo) → API REST (Express) → PostgreSQL (Railway)
-```
-
-- **API em produção**: `back-end-production-11e9.up.railway.app`
-- **Documentação Swagger**: `back-end-production-11e9.up.railway.app/api-docs`
-- **Gerenciamento**: Jira — `escola-ti.atlassian.net` — projeto HOS
-
----
-
-## Escopo do MVP
-
-O MVP contempla exclusivamente os fluxos:
-
-- **UC03 — Buscar Hospedagem**: listagem de hotéis, filtros e visualização de perfil
-- **UC04 — Solicitar Reserva**: seleção de pet, período e confirmação da reserva
-
-Pagamento, chat, walker, pet sitter, BI e plataforma web ficam para fases futuras.
-
----
-
-## Artefatos
-
-| Arquivo | Descrição |
-|---------|-----------|
-| [HOSPETSE.pdf](https://github.com/hospetse/artefatos/blob/main/HOSPETSE.pdf) | Documentação do MVP — UC03 e UC04 |
-| [DIAGRAMAS.pdf](https://github.com/hospetse/artefatos/blob/main/DIAGRAMAS.pdf) | Diagramas de sequência |
-| [TESTE HOSPETSE.pdf](https://github.com/hospetse/artefatos/blob/main/TESTE%20HOSPETSE.pdf) | Plano de testes UC03 e UC04 |
-| [HOSPETSE-JIRA.pdf](https://github.com/hospetse/artefatos/blob/main/HOSPETSE-JIRA.pdf) | Métricas e cards do Jira |
-| [DER_HOSPETSE.png](https://github.com/hospetse/artefatos/blob/main/DER_HOSPETSE.png) | Diagrama Entidade-Relacionamento |
-| [DIAGRAMA_CLASSE.png](https://github.com/hospetse/artefatos/blob/main/DIAGRAMA_CLASSE.png) | Diagrama de classes |
+| [hospetse-mobile](https://github.com/hospetse/hospetse-mobile) | Aplicativo do Tutor e dos prestadores. Expo SDK 58, React Native 0.88, TypeScript e Expo Router. Tem cadastro com PIN, login, busca de Hosts, filtros, resultados e detalhe do Host. Os tokens ficam no armazenamento seguro do aparelho (SecureStore). |
+| [hospetse-auth-service](https://github.com/hospetse/hospetse-auth-service) | Serviço de autenticação, separado do back-end e com banco próprio. Confirma o e-mail com PIN, guarda a senha com Argon2id e emite o access token JWT (RS256, 15 minutos) e o refresh token com rotação. Depois do cadastro, cria o usuário no back-end por uma rota interna autenticada. Node.js 22, Express 5, Prisma e PostgreSQL. |
+| [hospetse-backend](https://github.com/hospetse/hospetse-backend) | API REST principal, com as regras de negócio. Cuida de usuários, perfil do Tutor, pets, busca e detalhe de Hosts e reservas. Valida o JWT com a chave pública do Auth e nunca recebe senha. Node.js, Express 5, Prisma e PostgreSQL, com contrato OpenAPI em `/docs`. |
+| [artefatos](https://github.com/hospetse/artefatos) | Artefatos da primeira etapa do projeto (MVP de 2026.1): documentação, diagramas de sequência, plano de testes, DER e diagrama de classes. |
