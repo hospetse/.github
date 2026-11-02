@@ -35,7 +35,8 @@ Os documentos ficam no repositório [artefatos](https://github.com/hospetse/arte
    * [ADR-001 a ADR-015](https://github.com/hospetse/artefatos/blob/main/2o-semestre/05-arquitetura/adrs.md) ([Wiki #55](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/55))
    * [C4 de Contexto, Containers e Componentes](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/c4)
    * [Ambientes, Deploy e CI/CD](https://github.com/hospetse/artefatos/blob/main/2o-semestre/05-arquitetura/ambientes-e-deploy.md)
-   * [Documentação da API REST](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/api): OpenAPI e Swagger do Auth Server e do back-end ([Wiki #88](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/88))
+   * [Documentação da API REST](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/api): contratos OpenAPI do Auth Server e do back-end
+   * Swagger da API publicada (Auth Server e back-end): [Wiki #88](https://dev.azure.com/escola-ti/Hospetse/_wiki/wikis/Hospetse.wiki/88), acesso restrito ao projeto
    * [Integração de Pagamento](https://github.com/hospetse/artefatos/tree/main/2o-semestre/05-arquitetura/integracao-de-pagamento)
 6. [Qualidade](https://github.com/hospetse/artefatos/tree/main/2o-semestre/06-qualidade)
    * [Estratégia de Testes](https://github.com/hospetse/artefatos/tree/main/2o-semestre/06-qualidade): testes automatizados no back-end e no Auth Server rodando no CI, depois testes end-to-end e validação manual dos fluxos
