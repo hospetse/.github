@@ -9,8 +9,9 @@ Plataforma que conecta tutores de pets a quem cuida deles. O Tutor encontra e co
 ## Sumário
 
 1. [Visão geral](#1-visão-geral)
-   * Produto, time e repositórios
-   * Azure DevOps: o que temos lá e como organizamos o trabalho
+   * [Produto, time e repositórios](#produto-time-e-repositórios)
+   * [Azure DevOps: o que temos lá e como organizamos o trabalho](#azure-devops)
+   * [UX e UI: protótipo de alta fidelidade das telas (Figma, link externo)](#ux-e-ui)
 2. Produto e requisitos _(em elaboração)_
    * TAP — Termo de Abertura do Projeto (`TAP_HOSPETSE - V2.pdf`, Wiki #62)
    * Pesquisa sobre cuidados com pets (`Pesquisa sobre cuidados com pets.pdf`)
@@ -19,32 +20,30 @@ Plataforma que conecta tutores de pets a quem cuida deles. O Tutor encontra e co
    * Especificação dos 73 Casos de Uso v2 (`CASOS_DE_USO__HOSPETSE.md`, Wiki #78)
    * User Stories V2 e detalhadas, com critérios de aceite (PDFs, Wiki #81 e #84)
    * Matriz de Rastreabilidade (`Matriz_Rastreabilidade_HOSPETSE_V2.xlsx`, `docs/backlog/04-matriz-rastreabilidade.md`)
-3. [UX e UI](#3-ux-e-ui)
-   * Protótipo de alta fidelidade das telas (Figma, link externo)
-4. Modelagem _(em elaboração)_
+3. Modelagem _(em elaboração)_
    * Diagrama de Casos de Uso completo (`HOSPETSE_Diagrama_Casos_de_Uso.puml` e `.svg`)
    * Diagramas de Casos de Uso por módulo, 16 arquivos (`docs/diagramas-de-casos-de-uso/`)
    * Diagrama de Classes: completo, Auth e 5 seções (`docs/diagrama-de-classes/`)
    * DER V3.1 (Wiki #60, `Banco de Dados DER - Overview.pdf`)
    * 8 Diagramas de Sequência e matriz de tipos (`docs/diagramas-de-sequencia/diagramas-finais/`)
-5. Arquitetura (System Design) _(em elaboração)_
+4. Arquitetura (System Design) _(em elaboração)_
    * ADR-001 a ADR-015 (Wiki #55)
    * C4 de Contexto, Containers e Componentes (`docs/diagrama-c4/`)
    * Documento de Ambientes, Deploy e CI/CD (`docs/ambientes.md`)
    * Documentação da API REST: OpenAPI do Auth e do back-end, Swagger em `/docs` e Wiki #88
    * Documento de Integração de Pagamento (`docs/integracao-de-pagamento/`)
-6. Qualidade _(em elaboração)_
+5. Qualidade _(em elaboração)_
    * Estratégia de Testes:
      * Hoje: testes unitários e de integração automatizados no back-end e no Auth (`node:test`), rodando no CI.
      * O mobile tem testes com Jest.
      * Próximos passos: testes end-to-end e execução manual dos fluxos principais.
-7. Gestão _(em elaboração)_
+6. Gestão _(em elaboração)_
    * Metodologia, Definition of Done e cerimônias (Wiki #41, #34 e #43)
    * Backlog, épicos e roadmap (`docs/backlog/` e Azure Boards)
    * Estimativas (`docs/estimativas/`, `estimativa-pbi-hospetse.xlsx`)
    * Compromissos da sprint (Wiki #101)
    * Não conformidades ETI 2026 (`NaoConformidades_ETI_2026.xlsx`)
-8. Termos e políticas _(em elaboração)_
+7. Termos e políticas _(em elaboração)_
    * Política de Privacidade (Wiki #94)
    * Termos de Uso do Host, do Pet Sitter e do Pet Walker (Wiki #96, #97 e #103)
 
@@ -115,11 +114,9 @@ Os épicos de hoje:
 
 **Como o código se liga ao board.** Todo work item tem um número. Branches seguem o padrão `feature/<número>-descrição`, e os commits e PRs citam o item com `AB#<número>` (por exemplo, `AB#516`). Assim, qualquer mudança no código pode ser rastreada até o PBI e o épico de origem.
 
----
+### UX e UI
 
-## 3. UX e UI
-
-### Protótipo de alta fidelidade das telas
+#### Protótipo de alta fidelidade das telas
 
 **[Abrir o protótipo no Figma](https://www.figma.com/design/mw5KHNpIv4u9VFF9AsN8Fe/Hospetse---Design-Telas--Copy-?node-id=0-1&p=f)** (link externo)
 
