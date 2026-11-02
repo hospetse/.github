@@ -10,12 +10,12 @@ Plataforma que conecta tutores de pets a quem cuida deles. O Tutor encontra e co
 
 | Nome | Papel |
 |-------------------------------|---------------------|
-| Lucas Neo | Back-end & Banco de Dados |
-| Raul Lopes Jorge | Back-end & Infraestrutura |
-| Murilo Barbosa | Mobile |
-| Brenda Kethleen Cirqueira Lucas | Product Owner |
 | Amanda Lorena | Scrum Master |
+| Brenda Kethleen Cirqueira Lucas | Product Owner |
 | Clara Lazaro | Mobile |
+| Lucas Neo | Back-end & Banco de Dados |
+| Murilo Barbosa | Mobile |
+| Raul Lopes Jorge | Back-end & Infraestrutura |
 
 ---
 
